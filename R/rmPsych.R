@@ -62,10 +62,3 @@ mat_file_import <- function(pattern) {
   files <- files[grep(pattern, files)]
   map(files, rmatio::read.mat)
 }
-
-setwd("./rmPsych") 
-document()
-
-
-install("rmPsych")
-library(rmPsych)
