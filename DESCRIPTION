@@ -1,0 +1,11 @@
+Package: rmPsych
+Title: Has helpful functions for repeated measures stats and importing matlab files
+Version: 0.0.0.9000
+Authors@R: person("Taylor", "Guthrie", email = "tguthrie@uoregon.edu", role = c("aut", "cre"))
+Description: Allows you to find standard error of summary data that is in wide format and to calculate cohen's d for repeated measures. It also allows you to create a list of matlab files that share a specific pattern.
+Depends: R (>= 3.4.2)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+import: rmatio
